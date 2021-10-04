@@ -1,6 +1,8 @@
 package com.example.shape;
 
-public class Shape {
+public abstract class Shape {
+    int x;
+    int y;
     public Shape(int x, int y) {
     }
 }
